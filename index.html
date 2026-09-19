@@ -1,119 +1,275 @@
 <!DOCTYPE html>
 <html lang="uz">
 <head>
-  <meta charset="UTF-8">
-  <title>Modern Treasury</title>
-  <link rel="stylesheet" href="stayle.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Modern Treasury</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- HEADER -->
-  <header class="header">
-    <div class="container header-inner">
-      <div class="logo">Modern Treasury</div>
-      <nav class="nav">
-        <a href="#">Platform</a>
-        <a href="#">Solutions</a>
-        <a href="#">Resources</a>
-        <a href="#">Pricing</a>
-      </nav>
-      <div class="header-buttons">
-        <a href="#" class="link">Log in</a>
-        <a href="#" class="btn btn-primary">Sign up</a>
-      </div>
-    </div>
-  </header>
+<!-- ============ 1. HEADER (yuqori menyu) ============ -->
+<header class="header">
+  <div class="container header-inner">
+    <a href="#" class="logo">Modern Treasury</a>
 
-  <!-- HERO -->
-  <section class="hero">
-    <div class="container hero-inner">
-      <div class="hero-text">
-        <h1>Build products that move money</h1>
-        <p>Modern Treasury's payment operations platform enables you to build money movement and routing to your products without the heavy lifting.</p>
-        <div class="hero-buttons">
-          <a href="#" class="btn btn-primary">Talk to a Payments Advisor</a>
-          <a href="#" class="link">Start building →</a>
-        </div>
-      </div>
-      <div class="hero-image">
-        <img src="https://via.placeholder.com/500x350" alt="hero image">
-      </div>
-    </div>
-  </section>
+    <ul class="menu">
+      <li><a href="#">Platform</a></li>
+      <li><a href="#">Solutions</a></li>
+      <li><a href="#">Resources</a></li>
+      <li><a href="#">Pricing</a></li>
+    </ul>
 
-  <!-- STATS -->
-  <section class="stats">
-    <div class="container">
-      <h2>Over <span class="green">$5B</span> Reconciled Monthly</h2>
-      <p>Trusted by fast-growing companies in the economy's most important sectors.</p>
+    <div class="header-buttons">
+      <a href="#">Log in</a>
+      <a href="#" class="btn btn-mint">Sign up</a>
     </div>
-  </section>
+  </div>
+</header>
 
-  <!-- OUR PRODUCTS -->
-  <section class="products">
-    <div class="container">
-      <h2>Our Products</h2>
-      <p>Modern Treasury's payment operations platform enables you to build money movement and routing to your products without the heavy lifting.</p>
-      <a href="#" class="btn btn-primary">Learn about...</a>
+<!-- ============ 2. HERO (birinchi katta blok) ============ -->
+<section class="section bg-white">
+  <div class="container hero">
+    <div>
+      <h1 class="hero-title">Build products that move money</h1>
+      <p class="hero-text">
+        Modern Treasury’s payment operations platform and flexible APIs
+        let you add money movement and tracking to your products.
+      </p>
+      <div class="hero-buttons">
+        <a href="#" class="btn btn-dark">Talk to a Payments Advisor</a>
+        <a href="#" class="link">Start building →</a>
+      </div>
     </div>
-  </section>
+    <div class="hero-image">
+      <img src="./img/IMAGE.svg" alt="Jamoa rasmi">
+    </div>
+  </div>
+</section>
 
-  <!-- USE CASES -->
-  <section class="use-cases">
-    <div class="container">
-      <h2>Use Cases</h2>
-      <div class="cards">
-        <div class="card">
-          <h3>Move money faster</h3>
-          <p>Move money faster with our payment operations platform.</p>
-          <a href="#" class="link">Learn about... →</a>
-        </div>
-        <div class="card">
-          <h3>Reconcile payments automatically</h3>
-          <p>Reconcile your payments automatically with our platform.</p>
-          <a href="#" class="link">Learn about... →</a>
-        </div>
-        <div class="card">
-          <h3>Track balances in real time</h3>
-          <p>Track your balances in real time across all accounts.</p>
-          <a href="#" class="link">Learn about... →</a>
-        </div>
-      </div>
-    </div>
-  </section>
+<!-- ============ 3. STATISTIKA ============ -->
+<section class="section bg-light-green center">
+  <h2 class="title-medium">Over $5B reconciled monthly</h2>
+  <p class="text-gray">Trusted by fast-growing companies.</p>
+</section>
 
-  <!-- MADE FOR DEVELOPERS -->
-  <section class="developers">
-    <div class="container dev-inner">
-      <div class="dev-text">
-        <h2>Made for developers</h2>
-        <ul>
-          <li>Onboard and verify counterparties</li>
-          <li>Onboard and verify counterparties</li>
-          <li>Onboard and verify eBook</li>
-          <li>Onboard and verify user onboarding</li>
-          <li>Onboard and verify moving operation</li>
-        </ul>
-      </div>
-      <div class="dev-image">
-        <img src="https://via.placeholder.com/500x300" alt="code example">
+<!-- ============ 4. MONEY'S NEXT MOVE ============ -->
+<section class="section bg-gray-dark text-white">
+  <div class="container two-columns">
+    <div>
+      <p class="eyebrow">The state of payment operations</p>
+      <h2 class="title-big">Money's Next Move</h2>
+      <p class="text-light-gray">
+        Yillik hisobotimiz to‘lov operatsiyalari qanday o‘zgarayotganini ko‘rsatadi.
+      </p>
+      <div class="hero-buttons">
+        <a  class="btn btn-white">Download the report</a>
+        <a  class="link text-white">Learn more →</a>
       </div>
     </div>
-  </section>
+    <div class="box-dark">
+      <img src="./img/IMAGE (1).svg" alt="Hisobot">
+    </div>
+  </div>
+</section>
 
-  <!-- BANK ACCOUNTS -->
-  <section class="banks">
-    <div class="container bank-inner">
-      <div class="bank-text">
-        <h2>All your bank accounts in one place</h2>
-        <p>All your bank accounts in one place for your money movement, no matter which bank partner integrations.</p>
-        <a href="#" class="link">Learn more about our bank integrations →</a>
-      </div>
-      <div class="bank-logos">
-        <span>JPMorgan</span>
-        <span>Citi</span>
-        <span>Silicon Valley Bank</span>
-        <span>Wells Fargo</span>
-      </div>
+<!-- ============ 5. OUR PRODUCTS ============ -->
+<section class="section bg-green text-white">
+  <div class="container center" style="max-width: 600px;">
+    <h2 class="title-medium">Our products</h2>
+    <p class="text-light-gray">Add money movement and tracking to your products.</p>
+    <a href="#" class="btn btn-mint">Learn about the platform</a>
+  </div>
+
+  <div class="container grid-3">
+    <div>
+      <p class="eyebrow">Payments</p>
+      <h3 class="title-small">Move money faster</h3>
+      <p class="text-light-gray">To‘lovlarni tezroq harakatlantiring.</p>
+      <a href="#" class="btn btn-mint btn-small">Learn about</a>
     </div>
-  </section>
+    <div>
+      <p class="eyebrow">Virtual accounts</p>
+      <h3 class="title-small">Reconcile automatically</h3>
+      <p class="text-light-gray">To‘lovlarni avtomatik moslashtiring.</p>
+      <a href="#" class="btn btn-mint btn-small">Learn about</a>
+    </div>
+    <div>
+      <p class="eyebrow">Ledgers</p>
+      <h3 class="title-small">Track balances in real time</h3>
+      <p class="text-light-gray">Balanslarni real vaqtda kuzating.</p>
+      <a href="#" class="btn btn-mint btn-small">Learn about</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 6. USE CASES (8 ta karta) ============ -->
+<section class="section bg-dark-green text-white">
+  <div class="container center">
+    <h2 class="title-medium">Use cases</h2>
+    <p class="text-light-gray">To‘lov stsenariylarini qo‘llab-quvvatlaymiz.</p>
+  </div>
+
+  <div class="container grid-4">
+    <div>
+      <div class="icon">⇄</div>
+      <h3 class="title-small">Automatic payouts</h3>
+      <p class="text-light-gray">To‘lovlarni avtomatik yuboring.</p>
+    </div>
+    <div>
+      <div class="icon">↓</div>
+      <h3 class="title-small">Incoming payments</h3>
+      <p class="text-light-gray">Kiruvchi to‘lovlarni qabul qiling.</p>
+    </div>
+    <div>
+      <div class="icon">◷</div>
+      <h3 class="title-small">Direct debits</h3>
+      <p class="text-light-gray">Mijoz hisobidan yechib oling.</p>
+    </div>
+    <div>
+      <div class="icon">▤</div>
+      <h3 class="title-small">Cash management</h3>
+      <p class="text-light-gray">Likvidlikni boshqaring.</p>
+    </div>
+    <div>
+      <div class="icon">▢</div>
+      <h3 class="title-small">Digital wallets</h3>
+      <p class="text-light-gray">Hamyon yarating.</p>
+    </div>
+    <div>
+      <div class="icon">▥</div>
+      <h3 class="title-small">Investing operations</h3>
+      <p class="text-light-gray">Oqimlarni avtomatlashtiring.</p>
+    </div>
+    <div>
+      <div class="icon">◈</div>
+      <h3 class="title-small">Loan servicing</h3>
+      <p class="text-light-gray">Kredit to‘lovlarini hisoblang.</p>
+    </div>
+    <div>
+      <div class="icon">$</div>
+      <h3 class="title-small">Fiat on-ramp</h3>
+      <p class="text-light-gray">Fiat pulni kiriting.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 7. MADE FOR DEVELOPERS ============ -->
+<section class="section bg-gray-dark text-white">
+  <div class="container two-columns">
+    <div>
+      <h2 class="title-big">Made for developers</h2>
+      <ul class="list">
+        <li>Onboard and verify counterparties</li>
+        <li>Initiate payments across rails</li>
+        <li>Reconcile transactions automatically</li>
+        <li>Track balances with ledgers</li>
+        <li>Listen to webhooks in real time</li>
+      </ul>
+    </div>
+    <div class="code-box">
+      <pre>curl https://app.moderntreasury.com/api/payment_orders \
+  -u $ORG_ID:$API_KEY \
+  -H "Content-Type: application/json" \
+  -d '{
+    "type": "ach",
+    "amount": 15000,
+    "direction": "credit"
+  }'</pre>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 8. BANK INTEGRATIONS ============ -->
+<section class="section bg-navy text-white">
+  <div class="container center" style="max-width: 600px;">
+    <h2 class="title-medium">All your bank accounts in one place</h2>
+    <p class="text-light-gray">
+      Our partnerships with leading commercial banks enable us to integrate
+      directly with their core systems.
+    </p>
+    <a href="#" class="link text-mint">Learn more about our bank integrations →</a>
+  </div>
+
+  <div class="container" style="max-width: 800px;">
+    <div class="logo-box">
+      <div class="logo-cell">Bank of America</div>
+      <div class="logo-cell">Citi</div>
+      <div class="logo-cell">J.P. Morgan</div>
+      <div class="logo-cell">Wells Fargo</div>
+      <div class="logo-cell">SVB</div>
+      <div class="logo-cell">Increase</div>
+      <div class="logo-cell">MetaBank</div>
+      <div class="logo-cell">Cross River</div>
+      <div class="logo-cell">Column</div>
+      <div class="logo-cell">BBVA</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 9. CTA (chaqiruv bloki) ============ -->
+<section class="section bg-white">
+  <div class="container center">
+    <h2 class="title-medium" style="color:#1f2223;">
+      Try Modern Treasury and see how smooth payment operations can be.
+    </h2>
+    <div class="hero-buttons" style="justify-content:center;">
+      <a href="#" class="btn btn-green">Talk to a Payments Advisor</a>
+      <a href="#" class="link" style="color:#1f2223;">Sign up →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 10. FOOTER ============ -->
+<footer class="footer">
+  <div class="container grid-4">
+    <div>
+      <h4 class="footer-title">Subscribe</h4>
+      <p class="text-light-gray">Get product updates.</p>
+      <a href="#" class="btn btn-green btn-small">Subscribe</a>
+    </div>
+    <div>
+      <h4 class="footer-title">Products</h4>
+      <ul class="footer-list">
+        <li><a href="#">Payments</a></li>
+        <li><a href="#">Ledgers</a></li>
+        <li><a href="#">Virtual accounts</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4 class="footer-title">Developers</h4>
+      <ul class="footer-list">
+        <li><a href="#">Quickstart</a></li>
+        <li><a href="#">API reference</a></li>
+        <li><a href="#">Guides</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4 class="footer-title">Company</h4>
+      <ul class="footer-list">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© Modern Treasury Corp — Made with 💛 in Los Angeles</p>
+    <div class="footer-social">
+      <a href="#">Twitter</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">Instagram</a>
+    </div>
+  </div>
+</footer>
+
+
+
+
+<script src="button.js"></script>
+
+
+</body>
+</html>
